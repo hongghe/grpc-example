@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *
  * @author hongghe 03/08/2018
  */
-@ConfigurationProperties(prefix = "client_demo")
+@ConfigurationProperties(prefix = "client")
 @Data
 public class ClientProperties {
 }

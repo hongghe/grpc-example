@@ -7,6 +7,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *
  * @author hongghe 03/08/2018
  */
-@ConfigurationProperties(prefix = "server_demo")
+@ConfigurationProperties(prefix = "server")
 public class ServerProperties {
 }
