@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&useSSL=false&createDatabaseIfNotExist=true
+    password:
+    type: com.zaxxer.hikari.HikariDataSource
+server:
+  port: 8080
+  address:
+  servlet:
+    context-path: /
